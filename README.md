@@ -4,7 +4,7 @@
 Game is 2D puzzle about completing levels by reaching goals using a group of non-unique units. Group control is achieved by creating-modifying behavior program and applying it to every member of a group. Program consists of a composition of (un)conditioned reactions to certain events and is set by player before playing each level and can only be modified between level-runs.
 
 ## Setup
-Just download code directory and add it using Unity Hub using Unity version 2018.4.22f1 or compatible.
+Download code directory, merge its contents into fresh new project directory (Unity version 2018.4.22f1 or compatible), open project in editor, remove SampleScene. That should be enough.
 
 ## Gameplay overview
 **Start menu**
@@ -58,12 +58,12 @@ Actions:
 - Switch direction – switch direction of Move action to the opposite. Can’t be used in “Loop” event.
 - Toggle movement – forces move action to stop or start again or toggle depending on if it currently stopped or not. Works only if there is Move action somewhere.
 
-## "code/Assets" directory overview
+## *code/Assets* directory overview
 **Scenes**
 - MainMenu.unity – scene for menus - main, level selection, behavior program changing.
 - Level01-04.unity – levels scenes
 
-**Images** – contains all svg images used in project imported using [[“Vector Graphics” Unity package]](https://docs.unity3d.com/Packages/com.unity.vectorgraphics@1.0/manual/index.html):
+**Images** – contains all svg images used in project imported using [“Vector Graphics” Unity package](https://docs.unity3d.com/Packages/com.unity.vectorgraphics@1.0/manual/index.html):
 - arena.svg, loop_slide.svg, labyrinth.svg – terrain for 3 levels
 - finish.svg – finish line, goal
 - portal.svg – spawning point
