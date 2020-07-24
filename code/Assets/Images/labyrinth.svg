@@ -1,0 +1,38 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="1280px" height="720px" viewBox="0 0 1280 720">
+<defs>
+<path id="Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 900 300
+L 1000 300 1000 100 200 100
+M 100 100
+L 100 200 700 200 700 400 800 400 800 200 900 200
+M 800 400
+L 900 400
+M 300 500
+L 100 500 100 700 1000 700 1000 600 400 600 200 600
+M 1000 600
+L 1000 500 800 500
+M 1000 500
+L 1000 300
+M 400 300
+L 500 300 600 300
+M 100 200
+L 100 300 300 300
+M 400 600
+L 400 500 500 500 500 400 200 400
+M 100 300
+L 100 500
+M 500 400
+L 500 300
+M 700 400
+L 600 400
+M 700 500
+L 500 500"/>
+</defs>
+
+<g id="MergedLayer_1">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+</g>
+</svg>
